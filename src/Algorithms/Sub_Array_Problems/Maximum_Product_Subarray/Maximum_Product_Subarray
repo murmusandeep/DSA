@@ -1,0 +1,23 @@
+
+The problem of finding the maximum product subarray is similar to the maximum subarray sum problem
+but with a twist due to the presence of negative numbers.
+Here's the pseudocode and explanation for the Maximum Product Subarray problem:
+
+Maximum Product Subarray
+
+Input: An array of integers, nums[1..n]
+
+Output: Maximum product of a subarray
+
+1. Initialize max_product and min_product to the value of the first element in the array:
+   max_product = min_product = result = nums[1]
+
+2. Loop through the array starting from the second element (i = 2 to n):
+   a. If the current element is negative, swap max_product and min_product.
+   b. Update max_product to be the maximum of the current element and the product of max_product and the current element.
+   c. Update min_product to be the minimum of the current element and the product of min_product and the current element.
+   d. Update result to be the maximum of result and max_product.
+
+3. After the loop, result contains the maximum product of a subarray.
+
+4. Return result as the result.

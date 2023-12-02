@@ -1,0 +1,20 @@
+The Longest Increasing Subarray problem involves finding the length of the longest subarray in a
+given array where the elements are in strictly increasing order. The subarray should be continuous.
+
+function longestIncreasingSubarray(arr):
+    n = length of arr
+    max_length = 1  // Initialize the length of the longest increasing subarray
+    current_length = 1  // Initialize the length of the current increasing subarray
+
+    for i from 1 to n - 1:
+        if arr[i] > arr[i - 1]:
+            current_length += 1
+        else:
+            // If the current element is not greater than the previous one,
+            // update the current length and reset it to 1
+            current_length = 1
+
+        // Update the maximum length if the current length is greater
+        max_length = maximum(max_length, current_length)
+
+    return max_length

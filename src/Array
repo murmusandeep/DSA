@@ -1,0 +1,42 @@
+1. Array :- Collection of Data  which are of same Data Type.
+
+2. Declare Array
+
+    int[] arr = new int[5]; (new DataType[Size] Creating object in heap memory)
+
+    or
+
+    int[] arr = { 12, 23, 34, 45, 56 };
+
+3. Run Time and Compile Time
+
+    int[] arr (declaration happen at Compile Time)
+    new int[5] (Run Time or Dynamic Memory Allocation)
+
+4. Print Arrays in 3(Three) Different ways.
+            System.out.println("Enter a values");
+
+            Scanner sc = new Scanner(System.in);
+
+            int[] arr = new int[5];
+
+            for(int i = 0; i < arr.length; i++){
+                arr[i] = sc.nextInt();
+            }
+
+            a) System.out.print(Arrays.toString(arr) + " ");
+
+            System.out.println();
+
+            b) for(int a : arr)
+               {
+                    System.out.print(a + " ");
+               }
+
+            System.out.println();
+
+            c) for(int i = 0; i < arr.length; i++)
+                {
+                    System.out.print(arr[i] + " ");
+                }
+5. Array List

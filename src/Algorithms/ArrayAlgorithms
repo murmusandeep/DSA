@@ -1,0 +1,70 @@
+1 : Searching Algorithms:
+
+    Linear Search
+    Binary Search
+
+2 : Sorting Algorithms:
+
+    Bubble Sort
+    Selection Sort
+    Insertion Sort
+    Merge Sort
+    Quick Sort
+    Heap Sort
+    Counting Sort
+    Radix Sort
+
+3 : Subarray Problems:
+
+    Kadane's Algorithm (Maximum Subarray Sum)
+    Maximum Product Subarray
+    Longest Increasing Subarray (Longest Continuous Increasing Subarray)
+    Minimum Size Subarray Sum
+
+4 : Two Pointers Technique:
+
+    Two Sum
+    Three Sum
+    Container With Most Water
+
+5 : Sliding Window Technique:
+
+    Maximum Sum Subarray of Size K
+    Longest Substring Without Repeating Characters
+
+6 : Array Rotation:
+
+    Rotate Array
+    Find the Rotation Count in Rotated Sorted Array
+
+7 : Prefix Sum:
+
+    Subarray Sum Equals K
+    Count Number of Nice Subarrays
+
+8 : Matrix Operations:
+
+    Rotate Image
+    Set Matrix Zeroes
+    Search in a 2D Matrix
+
+9 : Element Frequency:
+
+    Majority Element
+    Find All Duplicates in an Array
+
+10 : Miscellaneous:
+
+    Product of Array Except Self
+    Missing Number in Array
+    Find the Celebrity
+
+11 : Bit Manipulation:
+
+    Single Number
+    Two Single Numbers (XOR-based solution)
+
+12 : Heap Operations:
+
+    Kth Largest Element in an Array
+    Sort an Almost Sorted Array (using Heap)
