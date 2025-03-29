@@ -7,8 +7,8 @@
     /// <example>
     /// <para>Example usage:</para>
     /// <code>
-    /// int[] nums = [[1,2,3],[3,2,1]]
-    /// int[] result = MaximumWealth(accounts)
+    /// int[][] nums = [[1,2,3],[3,2,1]]
+    /// int result = MaximumWealth(accounts)
     /// Output: 6
     /// </code>
     /// </example>
@@ -16,7 +16,20 @@
     {
         public static int MaximumWealth(int[][] accounts)
         {
-            return 1;
+            int result = int.MinValue;
+
+            for (int i = 0; i < accounts.Length; i++)
+            {
+                int sum = 0;
+                for (int j = 0; j < accounts[i].Length; j++)
+                {
+                    sum += accounts[i][j];
+                }
+
+                result = Math.Max(result, sum);
+            }
+
+            return result;
         }
     }
 }

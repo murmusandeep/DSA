@@ -6,9 +6,9 @@ namespace Array.Program
     {
         public static void Main(string[] args)
         {
-            int[] nums = [1, 2, 3, 4];
-            int[] result = _1480.RunningSum(nums);
-            Console.WriteLine(string.Join(",", result));
+            int[][] nums = [[1, 5], [7, 3], [3, 5]];
+            int result = _1672.MaximumWealth(nums);
+            Console.WriteLine(result);
         }
     }
 }
